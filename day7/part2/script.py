@@ -2,7 +2,7 @@ def find_all_enumerate(s, c):
     return [i for i, x in enumerate(s) if c == x]
 
 
-with open("input.txt", "r") as file:
+with open("test.txt", "r") as file:
     content = file.read()
     lines = content.splitlines()
     width = len(lines[0])
